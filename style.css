@@ -10,6 +10,10 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-weight: 900;
+}
+
 .half-width {
     width: 50%;
 }
@@ -44,5 +48,40 @@ h1 {
 }
 
 .space {
-    margin-bottom: 10%;
+    margin-bottom: 20%;
+}
+
+.set-img {
+    height: 570px;
+    width: 360px;
+    margin-left: 50px;
+}
+
+#text {
+    text-align: justify;
+    max-width: 400px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.sec-3 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0px 310px;
+}
+
+.box {
+    border-radius: 40px;
+    padding: 25px;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.box p {
+    font-size: 20px;
+}
+
+.box img {
+    height: 300px;
+    border-radius: 40px;
 }
