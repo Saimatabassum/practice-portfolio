@@ -1,5 +1,13 @@
-span {
+.color {
     color: orange;
+}
+
+.color-2 {
+    color: grey;
+}
+
+.color-3 {
+    color: white;
 }
 
 body {
@@ -73,7 +81,7 @@ h2 {
 .box {
     border-radius: 40px;
     padding: 25px;
-    margin-left: 5%;
+    width: 50%;
     box-shadow: 10px 10px 40px gray;
 }
 
@@ -84,4 +92,37 @@ h2 {
 .box img {
     height: 300px;
     border-radius: 40px;
+}
+
+#box-1 {
+    margin-left: 5%;
+}
+
+#box-2 {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.box-3 {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px lightslategray;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.box-3 h1 {
+    font-size: 45px;
+}
+
+#sec-6 {
+    background-color: black;
+    text-align: center;
+    height: 200px;
+}
+
+#sec-6 h2 {
+    padding-top: 40px;
 }
